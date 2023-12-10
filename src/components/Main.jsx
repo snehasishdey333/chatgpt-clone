@@ -77,7 +77,7 @@ useEffect(()=>{
         <div className="w-full md:w-[65%] h-[55px] border border-gray-600 flex items-center rounded-lg p-2">
            <input value={prompt} onChange={(e)=>setPrompt(e.target.value)} className="text-white h-full w-full p-2 outline-none bg-inherit" type="text" placeholder="Message ChatGPT clone"/>
            <button onClick={handleClick} className="bg-gray-600 h-full p-2 rounded-lg">
-            <img src="/images/public/asset 10.svg" alt="btn-img"/>
+            <img src="/images/asset 10.svg" alt="btn-img"/>
            </button>
         </div>
          <p className="text-xs text-white p-2 text-center">ChatGPT clone can make mistakes. Consider checking important information.</p>
