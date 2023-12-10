@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div className="bg-black flex flex-col items-start p-4 h-screen">
 
         {/* top bar */}
-       <div className="flex items-center w-full p-1 rounded-lg hover:bg-[#202123]">
+       <div onClick={()=>window.location.reload()} className="flex items-center w-full p-1 rounded-lg hover:bg-[#202123]">
          <div className="flex items-center space-x-2 cursor-pointer">
            <div className="bg-[#ececf1] rounded-full p-1 h-8 w-8">
             <img src="/images/asset 12.svg" alt="logo" />
