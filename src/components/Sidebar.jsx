@@ -2,6 +2,7 @@ import { questions } from "../data"
 
 
 const Sidebar = () => {
+
   return (
     <div className="bg-black flex flex-col items-start p-4 h-screen">
 
