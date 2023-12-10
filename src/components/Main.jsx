@@ -46,7 +46,7 @@ useEffect(()=>{
         {/* message */}
         {messages.map((m,index)=>(
           <div key={index} className="flex items-start space-x-4 my-6 p-2">
-              <img className="h-8 w-8 rounded-full" src={m.isUser?"../../public/asset 0.png":"../../public/logo.png"} alt="user"/>
+              <img className="h-8 w-8 rounded-full" src={m.isUser?"/images/asset 0.png":"/images/logo.png"} alt="user"/>
               <div className="flex flex-col items-start">
                 <p className="text-[#ececf1] font-bold">{m.isUser?"You":"ChatGPT"}</p>
                 <p className="text-[#ececf1]">{m.text}</p>
@@ -77,7 +77,7 @@ useEffect(()=>{
         <div className="w-full md:w-[65%] h-[55px] border border-gray-600 flex items-center rounded-lg p-2">
            <input value={prompt} onChange={(e)=>setPrompt(e.target.value)} className="text-white h-full w-full p-2 outline-none bg-inherit" type="text" placeholder="Message ChatGPT clone"/>
            <button onClick={handleClick} className="bg-gray-600 h-full p-2 rounded-lg">
-            <img src="../../public/asset 10.svg" alt="btn-img"/>
+            <img src="/images/public/asset 10.svg" alt="btn-img"/>
            </button>
         </div>
          <p className="text-xs text-white p-2 text-center">ChatGPT clone can make mistakes. Consider checking important information.</p>

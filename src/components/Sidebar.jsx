@@ -9,7 +9,7 @@ const Sidebar = () => {
        <div className="flex items-center w-full p-1 rounded-lg hover:bg-[#202123]">
          <div className="flex items-center space-x-2 cursor-pointer">
            <div className="bg-[#ececf1] rounded-full p-1 h-8 w-8">
-            <img src="../../public/asset 12.svg" alt="logo" />
+            <img src="/images/asset 12.svg" alt="logo" />
            </div>
            <h2 className="text-[#ececf1] font-semibold">New Chat</h2>
          </div>
@@ -34,7 +34,7 @@ const Sidebar = () => {
          {/* upgrade */}
             <div className="flex items-center space-x-2 cursor-pointer">
                 <div className="bg-[#ececf1] rounded-full p-1 h-8 w-8">
-                   <img src="../../public/asset 7.svg" alt="img"/>
+                   <img src="/images/asset 7.svg" alt="img"/>
                 </div>
 
                 <div className="text-[#ececf1]">
@@ -45,7 +45,7 @@ const Sidebar = () => {
              
              {/* account */}
             <div className="flex items-center space-x-2 cursor-pointer">
-               <img src="../../public/asset 0.png" alt="account" className="w-8 h-8 rounded-full"/>
+               <img src="/images/asset 0.png" alt="account" className="w-8 h-8 rounded-full"/>
                <p className="text-[#ececf1]">FullStack Snehasish</p>
             </div>
          </div>
