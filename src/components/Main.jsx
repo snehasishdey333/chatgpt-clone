@@ -27,7 +27,7 @@ const handleClick=async()=>{
   }
   catch(err){
     setLoading(true)
-    console.log(err)
+    console.log("error"+err)
   }
 }
 
